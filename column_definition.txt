@@ -1,0 +1,114 @@
+
+# ------------------------------------------------------------------------------------------------------------------------
+#                                   Dataset Columns with Descriptions & Values
+# ------------------------------------------------------------------------------------------------------------------------
+
+#  1) S.No :
+#  ----------
+#    --> Serial number for each record.
+#    --> Values: 1 to 8,523 (unique for each row)
+#    --> Used for indexing and referencing items.
+
+#  2) Item Fat Content :
+#  ----------------------
+#    --> Indicates the fat content of food items.
+#    --> Values: "Low Fat", "Regular"
+#    --> Used to segment items by health preference.
+
+#  3) Item Identifier :
+#  ---------------------
+#    --> Unique code for each product.
+#    --> Example: FDX32, NCU05, DRJ11
+#    --> Used for item-level tracking.
+
+#  4) Item Type :
+#  ---------------
+#    --> Category of the product.
+
+#    --> Values: 
+#        - Baking Foods : Cake mixes, flour, etc.
+#        - Breads : Packaged bread, buns, etc.
+#        - Breakfast : Cereal, oats, etc.
+#        - Canned : Canned vegetables, beans, soups, etc.
+#        - Dairy : Milk, cheese, yogurt, etc.
+#        - Frozen Foods : Frozen snacks, ready meals.
+#        - Fruits and Vegetables : Fresh produce.
+#        - Hard Drinks : Alcoholic beverages.
+#        - Health & Hygiene : Personal care products.
+#        - Meat : Chicken, mutton, fish (raw).
+#        - Others : Spices, condiments, sauces, pickles, etc.
+#        - Seafood : Fresh prawns, fish.
+#        - Snack Foods : Chips, biscuits, namkeen.
+#        - Soft Drinks : Soda, juices, energy drinks.
+#        - Starchy Foods : Potatoes, rice, pasta.
+#    --> Used for category-based sales analysis.
+
+#  5) Outlet Establishment Year :
+#  --------------------------------
+#    --> The year the outlet was established.
+#    --> Values: 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2020, 2022
+#    --> Used to compare performance of older vs newer outlets.
+
+#  6) Outlet Identifier :
+#  -----------------------
+#    --> Unique code for each outlet.
+#    --> Example: OUT049, OUT013, OUT027
+#    --> Used for outlet-level analysis.
+
+#  7) Outlet Location Type :
+#  --------------------------
+#    --> Classification of outlets by city tier.
+#    --> Values:
+#        Tier 1 : Metro cities (Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Hyderabad)
+#        Tier 2 : Large cities (Pune, Ahmedabad, Jaipur, Lucknow, Chandigarh, Coimbatore)
+#        Tier 3 : Smaller cities/towns (Bhopal, Patna, Indore, Nagpur, Madurai, Surat)
+#    --> Used for geographic performance comparison.
+
+#  8) Outlet Size :
+#  -----------------
+#    --> Physical store size.
+#    --> Values:
+#        - High : Large hypermarket-style outlets.
+#        - Medium : Standard supermarket size.
+#        - Small : Compact convenience stores.
+#    --> Used to compare sales across different store formats.
+
+#  9) Outlet Type :
+#  -----------------
+#    --> Classification based on store type.
+#    --> Values:
+#        - Supermarket Type 1 : Small-medium grocery-focused stores.
+#        - Supermarket Type 2 : Larger supermarkets with variety sections.
+#        - Supermarket Type 3 : Premium supermarkets with wide product range.
+#        - Grocery Store : Local-style smaller outlets.
+#    --> Used to evaluate outlet-type performance.
+
+#  10) Item Visibility :
+#  ----------------------
+#    --> Shelf space allocated to an item (in %).
+#    --> Used to study impact of product placement on sales.
+
+#  11) Item Weight :
+#  ------------------
+#    --> Weight or volume of product.
+#    --> Units vary:
+#        - Dairy, Meat, Produce : Kilograms
+#        - Beverages : Milliliters
+#    --> Used to analyze sales by package size.
+
+#  12) Sales :
+#  ------------
+#    --> Total revenue generated for the item (in $).
+#    --> Used to identify high and low revenue-generating products.
+
+#  13) Rating :
+#  -------------
+#    --> Customer rating from 1 to 5.
+#    --> Categories:
+#        1 : Very Poor
+#        2 : Poor
+#        3 : Average
+#        4 : Good
+#        5 : Excellent
+#    --> Used to assess customer satisfaction.
+
