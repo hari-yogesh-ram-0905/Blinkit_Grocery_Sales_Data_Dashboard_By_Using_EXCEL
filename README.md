@@ -1,7 +1,5 @@
 # Blinkit - "Grocery Sales Data Dashboard" ( By Using EXCEL )
 
-# Blinkit Grocery Sales Data Dashboard
-
 ---
 
 ## 🧠 Table of Contents
